@@ -1,0 +1,32 @@
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    background-color: #EEF1FF
+    ;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+
+/* Main Content */
+
+.custom-section {
+    margin-top: 20px;
+}
+
+.style-carousel img {
+    height: 400px !important;
+    width: 100%;
+    object-fit: cover;
+}
+
+.btn {
+    background-color: #B1B2FF;
+}
+
+
+/* Footer */
