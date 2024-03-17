@@ -1,32 +1,90 @@
-
+* {
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
     color: #333;
-    background-color: #EEF1FF
-    ;
+    background-color: #EEF1FF;
+}
+
+
+
+/* Header */
+
+header {
     margin: 0;
     padding: 0;
 }
 
-/* Header */
+.navbar-section {
+    background-color: #D2DAFF !important;
 
+}
+
+
+.navbar .btn {
+    margin-right: 14px;
+}
 
 /* Main Content */
 
+.carousel-inner {
+    border-radius: 10px !important;
+}
+
 .custom-section {
     margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .style-carousel img {
     height: 400px !important;
-    width: 100%;
     object-fit: cover;
 }
 
 .btn {
     background-color: #B1B2FF;
+    color: #fffdfd;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
 }
 
+.signup-login-sections {
+    margin-bottom: 20px;
+}
+
+.singup-form {
+    margin-bottom: 50px;
+}
+
+.singup-form-container {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.login-form-container {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.singup-form-container-btn {
+    width: 300px;
+    align-self: center;
+}
 
 /* Footer */
+
+footer {
+    margin: 0;
+}
+
+.footer-element {
+    background-color: #D2DAFF;
+    color: #fff;
+    padding: 20px 0;
+}
