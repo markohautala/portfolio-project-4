@@ -52,6 +52,15 @@ header {
     cursor: pointer;
 }
 
+.fa-solid {
+    margin-right: 10px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #B1B2FF;
+    color: #fff;
+}
+
 .signup-login-sections {
     margin-bottom: 20px;
 }
@@ -87,4 +96,17 @@ footer {
     background-color: #D2DAFF;
     color: #fff;
     padding: 20px 0;
+}
+
+.nav-link {
+    color: black;
+    font-size: larger;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.fa-brands {
+    margin-right: 5px;
 }
